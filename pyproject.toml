@@ -28,7 +28,7 @@ dependencies = [
     # turns that into an install-time refusal we can see, instead of a runtime
     # crash the user sees. Lift each one deliberately, with the port done.
     "mcp[cli]>=2,<3",       # 2.x renamed FastMCP -> MCPServer; ported in 0.5.1
-    "glia-py==0.5.1",       # glia pins consumers exactly per release (0.5.1 breaks the graph contents)
+    "glia-py==0.5.3",       # fork build: 0.5.2 plus config-object endpoint anchors
     "watchdog>=3.0,<7",
 ]
 
